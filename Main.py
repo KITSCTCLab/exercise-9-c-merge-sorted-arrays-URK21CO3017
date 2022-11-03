@@ -8,6 +8,8 @@ def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
   nums1 = merge_sort(nums1)
   return nums1
   
+  
+  
 def merge_sort(myList) -> None:
   if len(myList) > 1:
         mid = len(myList) // 2
